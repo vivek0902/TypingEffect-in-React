@@ -1,12 +1,14 @@
-# React + Vite
+# 📝 Typing Effect App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a fun and interactive React app that demonstrates a single-line typing animation effect. You can dynamically change the text and control the typing speed using a delay time selector.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- ⌨️ **Typing animation** for custom text
+- 🕒 **Dynamic speed control** (typing delay in milliseconds)
+- 📤 **Input area** to update the text in real-time
+- 🔁 Clean UI with a reset option for default speed
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
