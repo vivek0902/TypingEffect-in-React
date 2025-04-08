@@ -1,0 +1,33 @@
+#root {
+  max-width: 1280px;
+  margin: 200px auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.blinking-cursor {
+  animation: blink 0.5s step-end infinite;
+}
+
+@keyframes blink {
+  from,
+  to {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+button {
+  width: 100px;
+  height: 41px;
+}
+
+input {
+  width: 250px;
+}
+
+.selector {
+  width: 100px;
+}
